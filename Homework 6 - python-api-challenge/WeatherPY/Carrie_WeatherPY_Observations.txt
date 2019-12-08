@@ -1,0 +1,9 @@
+Carrie WeatherPY Observations
+
+You must include a written description of three observable trends based on the data.
+
+1.  City Latitude vs. Cloudiness- I was unable to determine a clear outcome from this data.  It does appear that there is a slight increase in cloudiness the further away from the equator you go in the northern hemisphere.
+
+2.  Humidity vs. Latitude - Similiar to above,  I was unable to determine a clear outcome from this data.  It does appear that there is a slight increase in humidity the further away from the equator you go in the northern hemisphere.  However, this could be because there are more cities from this region in our data.
+
+3.  Max temp vs. Latitude - Temperature increase the closer you get to the equator and decreases the further away you get to the equator.
