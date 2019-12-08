@@ -1,0 +1,6 @@
+Carrie Pandas Data Observations
+
+You must include a written description of at least two observable trends based on the data.
+
+From my data, I concluded that more money spent on each student did not necessarily translate into a higher overall passing rate for the school.  In fact, the lowest performing schools tended to spend the same, if not more, than the higher performing schools.  I also noted that underperforming schools had a least twice as many students as the top performing schools.
+
