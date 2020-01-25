@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Latitude vs. X</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="Index.html" style="color: white">Latitude</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="Temp.html">Max Temperature</a></li>
+                  <li><a href="Humidity.html">Humidity</a></li>
+                  <li><a href="Cloud.html">Cloudiness</a></li>
+                  <li><a href="Wind.html">Wind Speed</a></li>
+                </ul>
+              </li>
+              <li><a href="Comparison.html">Comparison</a></li>
+              <li><a href="Data.html">Data</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+
+    <div id="summary">
+      <h1>Summary:Latitude vs. X</h1>
+      <hr>
+      <img id="img1" src="C:\Users\carri\git\DataVizClass\Homework 11 - Web-Design-Challenge\Resources\assets\images\Fig1.png" alt="Max Temperature" width="200" height="150">
+      <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pull data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+      <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, humidity, cloudiness, wind speed. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+    </div>
+    <div id="visualizations">
+      <h2>Visualizations</h2>
+      <hr>
+      <a href="C:\Users\carri\git\DataVizClass\Homework 11 - Web-Design-Challenge\Temp.html">
+        <img src="C:\Users\carri\git\DataVizClass\Homework 11 - Web-Design-Challenge\Resources\assets\images\Fig1.png" alt="Max Temperature" width="150" height="112.5">
+      </a>
+      <a href="C:\Users\carri\git\DataVizClass\Homework 11 - Web-Design-Challenge\Humidity.html">
+        <img src="C:\Users\carri\git\DataVizClass\Homework 11 - Web-Design-Challenge\Resources\assets\images\Fig2.png" alt="Humidity" width="150" height="112.5">
+      </a>
+      <a href="C:\Users\carri\git\DataVizClass\Homework 11 - Web-Design-Challenge\Cloud.html">
+        <img src="C:\Users\carri\git\DataVizClass\Homework 11 - Web-Design-Challenge\Resources\assets\images\Fig3.png" alt="Cloudiness" width="150" height="112.5">
+      </a>
+      <a href="C:\Users\carri\git\DataVizClass\Homework 11 - Web-Design-Challenge\Wind.html">
+        <img src="C:\Users\carri\git\DataVizClass\Homework 11 - Web-Design-Challenge\Resources\assets\images\Fig4.png" alt="Wind Speed" width="150" height="112.5">
+      </a>
+    </div>
+    <div id="footer2"></div>
+    <div id="footer1">
+      <p id="copyright">&copy Copyright Carrie Naumann 2020 </p>
+    </div>
+  </body>
+  </html>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" 
+ 
+  
+
